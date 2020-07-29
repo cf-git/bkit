@@ -2,7 +2,7 @@
     "name": "cf-git/bkit",
     "description": "Laravel Blade smart kit",
     "type": "package",
-    "license": "MIT",
+    "license": "GNU GPLv3",
     "version": "0.0.7",
     "authors": [
         {
