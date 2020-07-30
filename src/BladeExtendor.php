@@ -53,18 +53,5 @@ class BladeExtendor
 
     public function extendBladeDirectives()
     {
-        static::bootBladeDirective('pushOnce', function ($stackName, $pushName) {
-            return "<?php
-                if (is_null(config('__stacks__.{$stackName}.{$pushName}'))) {
-                    config(['__stacks__.{$stackName}.{$pushName}' => true]);
-                    \$__env->startPush('{$stackName}');
-            ?>";
-        });
-        static::bootBladeDirective('endOnce', function () {
-            return "<?php
-                    \$__env->stopPush();
-                }
-            ?>";
-        });
     }
 }

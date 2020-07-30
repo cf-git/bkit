@@ -3,7 +3,7 @@
     "description": "Laravel Blade smart kit",
     "type": "package",
     "license": "GPL-3.0-or-later",
-    "version": "0.0.7",
+    "version": "0.0.9",
     "authors": [
         {
             "name": "Sergei Shubin",
