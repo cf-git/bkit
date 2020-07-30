@@ -50,8 +50,4 @@ class BladeExtendor
             );
         });
     }
-
-    public function extendBladeDirectives()
-    {
-    }
 }
