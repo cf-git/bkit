@@ -15,7 +15,7 @@ class CFServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->get()->extend(\Illuminate\Contracts\View\Factory::class, function (
+        $this->app->extend(\Illuminate\Contracts\View\Factory::class, function (
             \Illuminate\Contracts\View\Factory $factory,
             \Illuminate\Foundation\Application $app
         ) {
